@@ -1,0 +1,336 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1969,
+          "participants": 851
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-87.62, 41.88]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1972,
+          "participants": 340
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-118.24, 34.05]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1970,
+          "participants": 452
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.16, 39.95]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1973,
+          "participants": 903
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.33, 47.61]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1968,
+          "participants": 298
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-95.36, 29.76]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1974,
+          "participants": 704
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-90.05, 35.15]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1975,
+          "participants": 201
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-104.99, 39.74]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1971,
+          "participants": 646
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.39, 33.75]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1978,
+          "participants": 730
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-80.19, 25.76]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1976,
+          "participants": 512
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-77.03, 38.90]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1979,
+          "participants": 230
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-71.06, 42.36]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1970,
+          "participants": 683
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-112.07, 33.45]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1972,
+          "participants": 409
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-93.27, 44.98]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1977,
+          "participants": 821
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-96.80, 32.77]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1969,
+          "participants": 159
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-117.16, 32.71]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1975,
+          "participants": 645
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-86.15, 39.77]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1971,
+          "participants": 309
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-84.51, 39.10]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1973,
+          "participants": 722
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-81.69, 41.50]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1978,
+          "participants": 188
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-90.20, 38.63]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1968,
+          "participants": 974
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-97.74, 30.27]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1976,
+          "participants": 310
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-106.65, 35.08]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1979,
+          "participants": 490
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-81.38, 28.54]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1974,
+          "participants": 777
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-75.52, 39.74]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1975,
+          "participants": 587
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-83.04, 42.33]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1969,
+          "participants": 229
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-122.67, 45.52]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1972,
+          "participants": 655
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-89.40, 43.07]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1973,
+          "participants": 832
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-76.61, 39.29]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1970,
+          "participants": 503
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-94.58, 39.10]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1977,
+          "participants": 388
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-79.99, 40.44]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "year": 1976,
+          "participants": 900
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [-95.93, 41.26]
+        }
+      }
+    ]
+  }
+  

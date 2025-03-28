@@ -63,9 +63,3 @@ const protestsSource = new ol.source.Vector({
   
   map.addLayer(protestsLayer);
   
-  
-
-  
-  
-  map.addLayer(protestsLayer);
-  

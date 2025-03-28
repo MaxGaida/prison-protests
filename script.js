@@ -27,30 +27,39 @@ const map = new ol.Map({
 });
 
 const protestsSource = new ol.source.Vector({
-    url: 'protests.geojson',
+    url: 'prison-protests.geojson',
     format: new ol.format.GeoJSON()
   });
   
   const protestsLayer = new ol.layer.Vector({
     source: protestsSource,
     style: function (feature) {
-      const year = feature.get('year');
-      const participants = feature.get('participants');
-      const currentYear = parseInt(document.getElementById('yearSlider').value);
-  
-      if (year !== currentYear) return null;
-  
-      const radius = 5 + (participants - 100) / (1000 - 100) * 10;
-  
-      return new ol.style.Style({
-        image: new ol.style.Circle({
-          radius: radius,
-          fill: new ol.style.Fill({ color: 'red' }),
-          stroke: new ol.style.Stroke({ color: '#fff', width: 1 })
-        })
-      });
-    }
-  });
+        // Parse year from "Start date"
+        const dateString = feature.get('Start date');
+        const yearMatch = dateString.match(/\b(19[6-9][0-9]|1979)\b/);
+        const year = yearMatch ? parseInt(yearMatch[0]) : null;
+      
+        // Get participants from "Number of prisoners involved" (as number)
+        const participantsRaw = feature.get('Number of prisoners involved');
+        const participants = parseInt(participantsRaw);
+      
+        const currentYear = parseInt(document.getElementById('yearSlider').value);
+      
+        // Filter by year
+        if (year !== currentYear || isNaN(participants)) return null;
+      
+        // Scale radius between 5 and 15
+        const radius = 5 + (participants - 100) / (1000 - 100) * 10;
+      
+        return new ol.style.Style({
+          image: new ol.style.Circle({
+            radius: radius,
+            fill: new ol.style.Fill({ color: 'red' }),
+            stroke: new ol.style.Stroke({ color: '#fff', width: 1 })
+          })
+        });
+      }
+    });      
   
   map.addLayer(protestsLayer);
   
